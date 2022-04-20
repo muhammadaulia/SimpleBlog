@@ -1,0 +1,13 @@
+body {
+  background-image: linear-gradient(90deg, #828890, #8197a4, #7ca8b4, #77b9bc, #7ac9bc);
+}
+
+.header {
+  text-align: center;
+}
+
+.card {
+  margin: 10px;
+  background-color: #222725;
+  color: white;
+}

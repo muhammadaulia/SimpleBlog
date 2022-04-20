@@ -1,0 +1,7 @@
+body {
+  background-image: linear-gradient(to bottom, #828890, #8197a4, #7ca8b4, #77b9bc, #7ac9bc);
+}
+
+.container {
+  padding-top: 2rem;
+}

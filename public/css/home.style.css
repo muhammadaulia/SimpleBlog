@@ -1,0 +1,22 @@
+body {
+  background-image: linear-gradient(to bottom, #828890, #8197a4, #7ca8b4, #77b9bc, #7ac9bc);
+}
+
+h1 {
+  text-align: center;
+}
+
+article {
+  margin: 2rem;
+  padding-bottom: 1rem;
+}
+
+.hyperlink {
+  text-decoration: none;
+  color: black;
+}
+
+.read-more {
+  text-decoration: none;
+  color: white;
+}
