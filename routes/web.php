@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
 use App\Models\Category;
 use App\Models\Home;
 use App\Models\User;
@@ -172,3 +173,6 @@ Route::get('/categories/{category:slug}', [CategoryController::class, 'showPostB
 # Menampilkan postingan yang telah diupload oleh masing-masing user
 Route::get('/authors/{author:username}', [AuthorController::class, 'showByAuthor']);
 */
+
+# Login Route
+Route::get('/login', [LoginController::class, 'index']);
