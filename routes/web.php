@@ -7,6 +7,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 use App\Models\Category;
 use App\Models\Home;
 use App\Models\User;
@@ -176,3 +177,6 @@ Route::get('/authors/{author:username}', [AuthorController::class, 'showByAuthor
 
 # Login Route
 Route::get('/login', [LoginController::class, 'index']);
+
+#Register Route
+Route::get('/register', [RegisterController::class, 'index']);
